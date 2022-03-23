@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        code {
+            background-color:black;
+            color:white;
+            font-size: 1.5rem;
+        }
+    </style>
+    <title>Git and GitHub</title>
+</head>
+<body>
+    <div>
+        <h1>Git</h1>
+        <p>
+            Is local
+        </p>
+        <p>
+            Is a version control system
+        </p>
+        <p>
+            Repository - The location where your code history is stored
+        </p>
+        <p>
+            Branch - "Folder" within the repository containing commits
+        </p>
+        <p>
+            Commits - Different versions of your code within a branch
+        </p>
+
+        <h2>Command</h2>
+        <code>$git init</code>
+        <p>Initiazes a local git repository</p>
+        <code>$git status</code>
+        <p>Shows status, information about current state</p>
+        <code>$git add .</code>
+        <p>Adds all files in your project folder into your repository, tracks changes in all files inside the repository</p>
+        <code>$git commit -m</code>
+        <p>Saves current version of code in branch and gives it a name (name added as "name" after -m)</p>
+        <code>$git branch</code>
+        <p>Lists all branches in repository</p>
+        <code>$git log</code>
+        <p>Lists all commits inside branch</p>
+        <code>$git reset --hard "commit ID"</code>
+        <p>Reverts to a previous commit</p>
+        <code>$git checkout -- .</code>
+        <p>Reverts unstaged changes and goes back to last commit</p>
+        <code>$git checkout -b name</code>
+        <p>creates new branch with "name" as the name</p>
+        <code>$git merge name</code>
+        <p>Merges currently selected branch with branch "name"</p>
+        <code>$git branch -D name</code>
+        <p>Deletes branch "name"</p>
+    </div>
+    <hr>
+
+    <div>
+        <h1>GitHub</h1>
+        <p>
+            Is web based
+        </p>
+        <p>
+            Is a hosting & collaboration provider
+        </p>
+
+        <h2>Command</h2>
+        <code>$git push</code>
+        <p>Allows us to upload the contents of our local repository to the remote one</p>
+    </div>
+    <hr>
+    
+</body>
+</html>
